@@ -1,0 +1,13 @@
+
+#!/bin/bash/
+
+# Update & Upgrade the system
+
+echo ">>>UPDATING THE SYSTEM>>>"
+sudo apt update -yy
+echo ">>>UPGRADING THE SYSTEM>>>"
+sudo apt dist-upgrade -yy
+echo "<<<AUTOREMOVE ON THE SYSTEM>>>"
+sudo apt autoremove -yy
+
+exit 
